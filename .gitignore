@@ -1,12 +1,20 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+#include <iostream>
 
-# Compiled Dynamic libraries
-*.so
+using namespace std;
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+int main()
+{
+
+    int x, y;
+    cout << "ievadit divus skaitlus" << endl;
+    cin >> x;
+    cin >> y;
+
+    for(int z = 1; z<=y; z++){
+    //parbauda vai ir atlikums
+    if(x%z==0 and y%z==0){
+    cout << "\n" << z;
+    }
+    }
+
+}
